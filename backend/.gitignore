@@ -1,0 +1,30 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node.js
+node_modules/
+dist/
+.vite/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Project backups
+backups/
+*.backup.tsx
+*.backup.css
+*.before-navigation.tsx
+*.before-navigation.css

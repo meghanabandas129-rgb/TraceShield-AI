@@ -1,0 +1,38 @@
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Build outputs
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local backups
+backups/
+
+# Server logs
+*.log
+
+# Temporary development files
+frontend/TraceShield-App.txt
+backend/test_server.py
+
+# Backup source files
+*.backup.tsx
+*.backup.css
+*.before-*.tsx
+*.before-*.css
+*.backup.ts
+
+# Backup configuration
+*.backup.ts
