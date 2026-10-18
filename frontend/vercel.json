@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://traceshield-ai.onrender.com/api/:path*"
+    }
+  ]
+}
